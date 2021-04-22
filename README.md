@@ -26,7 +26,7 @@ The code in this repo is the proof-of-concept.
 
 
 Since Grafana backend plugins are running as separate processes and communicating via gRPC, they could be 
-coded in any language with gRPC support. Or so they say ) So let's code it coded in Python.
+coded in any language with gRPC support. Or so they say ) So let's code it in Python.
 
 The protobuf definitions are hosted in https://github.com/grafana/grafana-plugin-sdk-go/
 so it should be the simple matter of compiling them for python and firing gRPC server.
